@@ -1193,3 +1193,41 @@ background-color: #D7DDE2;
         font-family: 'Asap', sans-serif;
         font-family: 'Inconsolata', monospace;
         }
+
+        @media screen and (max-width: 650px) {
+          .nav-text{
+            grid-column: 1/7;
+            background:#3A4C56;
+            }
+            .logo-img{
+            width: 10%;
+            height:10%;
+            padding-left: 2%;
+            }
+            .About{
+            list-style-type: none;
+            
+            
+            
+            }
+            .nav-text button{
+              font-family: 'Asap', sans-serif;
+              font-size: 17px;
+              color: #ffff;
+              background-color: transparent;
+              border: 1px solid #ffff;
+            }
+            li,a{
+              font-family: 'Asap', sans-serif;
+              font-size: 17px;
+              color: #ffff;
+              text-decoration: none;
+              margin:2.5rem;
+              
+            }
+             ul li{
+              display: inline-block;
+              list-style-type: none;
+             
+            }
+        }
