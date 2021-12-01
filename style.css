@@ -1203,10 +1203,13 @@ background-color: #D7DDE2;
             width: 10%;
             height:10%;
             padding-left: 2%;
+         
             }
             .About{
             list-style-type: none;
-            
+            list-style-type: none;
+  margin: 0;
+  padding: 0;
             
             
             }
@@ -1222,11 +1225,14 @@ background-color: #D7DDE2;
               font-size: 17px;
               color: #ffff;
               text-decoration: none;
-              margin:2.5rem;
+              display: block;
+              width: 60px;
+             
+              
               
             }
              ul li{
-              display: inline-block;
+              
               list-style-type: none;
              
             }
